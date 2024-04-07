@@ -1457,9 +1457,7 @@ textarea.input-field {
     --fontSize-body-2: 2rem;
 
   }
-
-
-
+ 
   /**
    * REUSED STYLE
    */
@@ -1603,8 +1601,14 @@ textarea.input-field {
     max-width: 420px;
     margin-inline: auto;
   }
+ /**
+     * TESTIMONIAL
+     */
+     .sliderr{
+      width:25%; 
 
-
+     }
+     
 
   /**
    * FOOTER
@@ -1629,11 +1633,16 @@ textarea.input-field {
     bottom: 0;
     min-width: max-content;
   }
+  
 
 }
 
+@media (max-width: 575px) {
+.footer .icon{ 
+                margin-top:5px;
+              position: absolute;}
 
-
+}
 
 
 /**
@@ -1641,7 +1650,6 @@ textarea.input-field {
  */
 
 @media (min-width: 768px) {
-
   /**
    * REUSED STYLE
    */
@@ -1719,7 +1727,7 @@ textarea.input-field {
    */
 
   .footer-brand { grid-column: 1 / 3; }
-
+  .footer .add{ margin-left: 30px;}
 }
 
 
