@@ -1638,7 +1638,12 @@ textarea.input-field {
 }
 
 
+@media (max-width: 375px) {
+.footer .icon{
+                margin-top:5px;
+              position: absolute;}
 
+}
 
 /**
  * responsive for larger than 768px screen
