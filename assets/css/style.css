@@ -1638,7 +1638,7 @@ textarea.input-field {
 }
 
 @media (max-width: 375px) {
-.footer .icon{background: #ce3535;
+.footer .icon{
                 margin-top:5px;
               position: absolute;}
 
